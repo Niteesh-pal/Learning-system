@@ -1,0 +1,122 @@
+{
+padding: 0 0;
+margin: 0;
+box-sizing: border-box;
+outline: none;
+font-family: 'Roboto', sans-serif;
+}
+
+body{
+background:url(design/bgimage.jpg);
+background-size:cover;
+	background-position:center;
+	height:100%;
+	
+
+display: flex;
+justify-content: center;
+align-items: flex-start;
+
+}
+.contact-form{
+ width:80vw;
+ display: flex;
+ justify-content: space-between;
+
+ margin: 30px 0;
+}
+.contact-form > * {
+width:50%;
+
+}
+.contact-form .first-container {
+
+display:flex;
+justify-content:center;
+align-items:center;
+box-shadow: 0 80px 100px 0 rgba(0,0,0,.1);
+}
+.contact-form .first-container .info-container div{
+margin:24px 0;
+
+}
+.contact-form .first-container .info-container div h3{
+ color:white;
+ font-size:30px;
+ font-weight: 800;
+ line-height: 1.2;
+ padding-bottom: 10px;
+
+}
+.contact-form .first-container .info-container div p{
+ font-size: 20px;
+ line-height: 1.2;
+ color:yellow;
+} 
+.contact-form .second-container{
+ padding:30px;
+ width: 50%;
+ align-item:left;
+ box-shadow: 0 100px 100px 0 rgba(0,0,0,.1);
+  
+}
+.contact-form .second-container form{
+ display:flex;
+ flex-direction: column; 
+}
+.contact-form .second-container h2{
+ font-size:32px;
+ font-weight:300;
+ color:#ff546c;
+ line-height: 1.2;
+ text-align: center;
+ margin-bottom:20px;
+}
+.contact-form .second-container form .form-group {
+ margin-bottom:10px;
+}
+.contact-form .second-container form .form-group *{
+ min-height:40px;
+ border:1px solid #e6e6e6;
+ padding:0 20px;
+}
+.contact-form .second-container form .form-group label {
+display:flex;
+align-items:center;
+border:1px solid;
+font-size:18px;
+color:yellow;
+text-transform: uppercase;
+ margin-top: -1px;
+}
+.contact-form .second-container form .form-group:first-of-type input {
+width:50.1%;
+margin-right:-5px;
+}
+.contact-form .second-container form .form-group input{
+ width:100%;
+font-size:15px;
+margin-top:-2px;
+}
+.contact-form .second-container form .form-group textarea{
+width:100%;
+min-height:80px;
+resize:none;
+padding:10px 20px;
+margin: -1px;
+}
+.contact-form .second-container form button{
+ width:200px;
+ height:50px;
+ background:#46266f;
+ color:white;
+ font-size:16px;
+ font-weight:600;
+ text-transform: uppercase;
+ border:0;
+ position:relative;
+ left:calc(50% - 100px);
+}
+.contact-form .second-container form button:hover{
+background:grey;
+}
