@@ -1,0 +1,190 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Roboto', sans-serif;
+	scroll-behavior:smooth;
+}
+#bgimg{
+position:fixed;
+width:100%;
+height:100%;
+	background:  url(design/bgimage.jpg);
+	background-size:cover;
+	background-position:center;
+	height:100%;
+	z-index: -1;
+      }
+
+.logo{
+	width:80;
+	position:fixed;
+	top:4%;
+	left:2%;
+}
+
+.logoname{
+	
+	color:#fff;
+	padding-top:3%;
+	margin-left:9%;
+	position:fixed;
+	font-size:20;
+	height:48px;
+	
+	border-bottom:2.5px solid #fff;
+}
+.links{
+	position:fixed;
+	top:0;
+	left:50%;
+	width:48%;
+	height:80px;
+	padding:10px;
+	border-bottom:1px solid #fff;
+	z-index:2;}
+	
+.links ul{
+	/*width:absolute;*/
+	margin-top:30px;
+	position:fixed;
+	float:right;
+	display:flex;
+	list-style:none;
+	height:60px;
+	
+	}
+ 
+.links ul li{
+	padding:10px;
+	right:8px;
+	/*width:150px;*/
+	height: 40px;
+/*background:yellow;*/
+	}
+
+.links li a{
+	line-height:60px;
+	color:#fff;
+	width:60px;
+	/*background:red;*/
+	padding:8px 10px 8px  12px ;
+	font-size:19;
+	text-decoration:none;
+	font-weight:bold;
+	list-style:none;
+	transition:0.8s ease;
+	}
+.links ul li.active a{
+background:rgba(0,0,0,0.5);
+	border-radius:50px;}
+
+
+.links li .subnav{
+	display:none;      /*change*/
+	width:100px;
+margin:0px;
+	padding-top:0px;
+	height:30vh;
+	/*background:blue;*/
+}
+.links li:hover .subnav {
+	display:block;
+	transition:0.8s ease;
+}
+.links li .subnav li{
+	text-align:center;
+	margin-top:0px;
+	height:35px;
+	padding:0px 30px 0px 0px;
+	background:grey;
+}
+.links li .subnav a{
+	border:border-box;
+	
+	padding:6px 20px 6px 20px;
+
+}
+.links  li a:hover{
+	background:rgba(0,0,0,0.5);
+	border-radius:50px;
+}
+
+.subnav li{
+	height:10px;
+	width:67px;
+	display:block;
+
+	}
+.subnav li a{
+	line-height:23px;
+	width:0px;
+	
+	}
+	.container{
+		top:25%;
+position:absolute;
+	left:10%;
+right:10%;
+	padding:10px 10px 0px 10px;
+	
+height:68vh;
+/*border: 1px solid #fff;*/
+	display:grid;
+	grid-template-columns: 1fr 1fr ;	
+	grid-gap:10px;
+}
+.container > div{
+	background:#eee;
+	padding:1em;
+	border-radius: 20px;
+	
+}
+.container > div:nth-child(odd)
+{
+	background:#ddd;
+}
+
+
+.box1{
+	text-align: center;
+}
+ #box1{
+	
+	/*padding-top: 30px;*/
+	font-size:80px;
+	
+}
+.box2{
+	text-align: center;
+
+}
+#box2{
+
+	/*padding-top: 30px;*/
+	font-size:80px;}
+	
+.box3{
+	text-align: center;
+}
+#box3{
+	
+	/*padding-top: 30px;*/
+	font-size:80px;}
+	
+.box4{
+	text-align: center;
+}
+#box4{
+	
+	/*padding-top: 30px;*/
+	font-size:80px;}
+	
+.button{
+	cursor:pointer;
+}
+.button a{
+	text-decoration: none;
+	color: black;
+	font-weight: 40px;
+	font-family: 'Lobster', cursive;
+}
